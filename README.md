@@ -10,7 +10,7 @@ Instruções para rodar o sistema
 
 # Clonar o respositório.
 
-Entrar na Pasta do Sisema
+Entrar na Pasta do Sistema
 
 # Backend
 
