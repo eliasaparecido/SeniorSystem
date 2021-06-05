@@ -95,15 +95,15 @@ const Home = () => {
                         </Row>
                         <Row style={{margin: '5px'}}>
                             {
-                                movies.map((movie, index) => 
-                                    <>
-                                        <Col sm="3">
-                                            <Card body key={index} style={{marginTop: '10px'}}>
-                                                <CardTitle tag="h5">Ano: {movie.year}</CardTitle>
+                                movies.map((movie, index) =>
+                                   
+                                        <Col sm="3" key={index}>
+                                            <Card body  style={{marginTop: '10px'}}>
+                                                <CardTitle tag="h5"  >Ano: {movie.year}</CardTitle>
                                                 <CardText>Total: {movie.movies}</CardText>
                                             </Card>
                                         </Col>
-                                    </>
+                                    
                                 )
                             }
                         </Row>  
