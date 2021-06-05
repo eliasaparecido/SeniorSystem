@@ -103,6 +103,12 @@ const  searchurl = async (moviename) => {
     return moviesByYear
  }
 
+ server.get('/', (req, res) => {
+    
+    return res.json('Servidor em execução');
+     
+});
+
  server.get('/search', (req, res) => {
     req.setTimeout(50000000);
     const {movie} = req.query;
